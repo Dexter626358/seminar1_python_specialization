@@ -10,7 +10,7 @@ for i in range(1, 10):
     side_B = random.randint(1, 100)
     side_C = random.randint(1, 100)
     if (side_A + side_B) > side_C and (side_B + side_C) > side_A and (side_C + side_A) > side_B:
-        print(f"Треугольник со сторонами {side_A}, {side_B}, {side_C} существует", end=" ")
+        print(f"Треугольник со сторонами {side_A}, {side_B}, {side_C} существует")
         if side_A == side_B == side_C:
             print("и является равносторонним\n")
         if side_A == side_B != side_C or side_B == side_C != side_A or side_C == side_A != side_B:
